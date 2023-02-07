@@ -1,1 +1,37 @@
-
+/*
+ fun main(){
+   //exercicio: fazer um dialogo de minimo 10 linhas usando a declaração println()  
+   //    
+   println("iago : davi, tu e muito feio") 
+   println("davi : cala a boca muleke, se parece um dinossauro")
+   println("iago : muleke, voce parece uma calopsita com derrame") 
+   println("davi : mano, vc e corcunda") 
+   println("iago : muleke, eu so nao falo da sua mae porque vc n tem") 
+   println("davi : pelo menos eu tenho familia, diferente de vc") 
+   println("iago : meu mano, vc n tem familia, vc tem planetas na sua casa, ja viu o tamanho da sua mae") 
+   println("davi : osh, e a sua mae achou vc no lixo enquanto ela procurava oq comer") 
+   println("iago : ai vc pegou pesado meu amigo") 
+   println("davi : huumm, ta sentindo esse cheiro?") 
+   println("iago : que cheiro?")  
+   println("davi : cheirinho de fds") 
+   println("iago : blz ne, quando vc precisa de mim vc vai ve") 
+   println("davi : 👍") 
+   
+   //variaveis - armazenam valores, dados, informações 
+   //
+   //val - não mutavel - nao podemos alterar seu valor 
+   //var - mutavel - podemos alterar seu valor 
+   //
+   //tipos de variaveis 
+   // 
+   // string - 
+   // int - 
+   // float - 
+   // double - 
+   // long - 
+   // boolean - 
+   // 
+   
+ } 
+ 
+ */
