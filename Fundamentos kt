@@ -67,4 +67,67 @@
     println("                                            😁 OBRIGADO POR USAR O SERVIÇO DO BEN 10! 😁")
     
 }
-   
+ /--------------------------------------------------------------------------------------------------------------------------------------------------------------/ 
+  fun main(){
+   //condições 
+   //
+   //condição simples 
+   // 
+   //if --> se... 
+   //else --> senão... 
+    /*
+   var lembreiDoChocolate = "Sim" 
+      
+     if(lembreiDoChocolate == "Sim"){ 
+         println("Vou entregar o chocolate para você") 
+     }else{ 
+         println("Chocolate pra todo mundo!!") 
+     }   
+     */  
+     /*
+     var notaEscola = 5.0 
+      
+     if(notaEscola == 5.0){ 
+         println("Parabens!!, voce passou de ano") 
+     }else{ 
+         println("Desparabens. voce nao passou de ano") 
+     }   
+     */ 
+    /*   
+     var coracoes = 1
+      
+     if(coracoes == 5){ 
+         println("voce esta otimo, bom pra vc") 
+     }else if(coracoes == 4){ 
+         println("ce ta bem") 
+     }else if(coracoes == 3){ 
+         println("ce ta ok, pode cumer miojo") 
+     }else if(coracoes == 2){ 
+         println("vc nao esta muito bem, se cuida, culpa do miojo") 
+     }else if(coracoes == 1){ 
+         println("voce esta morrendo, voce tem direito a um advogado e a uma ligação") 
+     }else{ 
+         println("tu ta morto :), novo reforço do vascao")
+     }   
+     */
+     var idade = 556
+      
+     if(idade <= 3){ 
+         println("voce e um nenem") 
+     }else if(idade <= 12){ 
+         println("voce e muito infantil") 
+     }else if(idade <= 18){ 
+         println("tu e jovem, aproveite sua vida") 
+     }else if(idade <= 60){ 
+         println("tu e adulto, pague a conta") 
+     }else if(idade > 60){ 
+         println("que que ha velhinho") 
+     }else{ 
+         println("voce nao existe") 
+     }
+     
+     
+     
+     
+     
+ }    
