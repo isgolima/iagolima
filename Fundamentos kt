@@ -130,4 +130,59 @@
      
      
      
- }    
+ }     
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ]
+  
+   fun main(){
+   
+     //Operadores Lógicos 
+     // 
+     // são usados quando queremos comparar mais de uma coisa na mesma condição 
+     //  
+     // && -> e 
+     // || -> ou (shift + barra invertida) 
+     //  
+     // TABELA VERDADE (com E e OU) 
+     //  
+     // && - a determinada ação só acontecerá se e somente se todas as condições forem verdadeiras
+     //   
+     // VV -> verdadeiro   
+     // VF -> falso
+     // FV -> falso
+     // FF -> falso 
+     //  
+     // || - a determinada será executada se pelo menos uma das condições forem verdadeiras
+     //  
+     // VV -. verdadeiro
+     // VF -> verdadeiro 
+     // FV -> verdadeiro
+     // FF -> falso 
+     // 
+   
+   /*
+     var idade = 1
+     var acompanhadoDosPais = true
+      
+      
+     if(idade >= 14 || acompanhadoDosPais == true){ 
+         println("Pode entrar, curte ae") 
+     }else{ 
+         println("a entrada não é permitida para você")
+     }
+    */  
+    var brasilGanha = true 
+     var alemanhaGanha = false
+      
+     
+       if(brasilGanha >= true && alemanhaGanha == false){ 
+        println("Brasil ganho, o Brasil é massa") 
+       }else{ 
+        println("alemanha é mo paia")
+       }
+     
+     
+      
+      
+  
+  
+ } 
