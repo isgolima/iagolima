@@ -185,4 +185,77 @@
       
   
   
- } 
+ }  
+ /------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+     fun main(){ 
+         
+        /*
+ var num1 = 5      
+    var num2 = 25 
+    
+    var num3 = 35 
+    var num4 = 10  
+     
+    var num5 = 50 
+    var num6 = 20 
+     
+    var num7 = 100 
+    var num8 = 20 
+     
+    println("                                                    😁 CALCULADORA DO BEN 10! 😁")
+    
+    println(" o resultado da adição " + num2 + " mais " + num1 + " é : 30 "   ) 
+     println("-                                                                                                                                            -") 
+     println("----------------------------------------------------------------------------------------------------------------------------------------------") 
+     println("-                                                                                                                                            -") 
+    println(" a subtração de " + num3 + " menos " + num4 + " é : 25 " )  
+    println( "-                                                                                                                                             -") 
+    println( "-----------------------------------------------------------------------------------------------------------------------------------------------") 
+    println( "-                                                                                                                                             -")
+    println( " a divisão de " + num5 + " dividido por " + num6 + " é : 2")  
+    println("-                                                                                                                                              -") 
+    println("------------------------------------------------------------------------------------------------------------------------------------------------") 
+    println("-                                                                                                                                              -")
+    println(" a multiplicação de " + num7 + " multiplicado por " + num8 + " é : 2000") 
+    println("------------------------------------------------------------------------------------------------------------------------------------------------") 
+    println("                                            😁 OBRIGADO POR USAR O SERVIÇO DO BEN 10! 😁") 
+    */ 
+         
+        //when 
+        // 
+        // quando uma determinada condição for verdadeira, outra determinada ação sera executada 
+        //  
+        //  estrutura do when: 
+        //   
+        //when(var){ 
+        //valor -> ação a ser executada 
+        //outrovalor -> ação 
+        //maisum ->  ação 
+        //outro -> ação 
+        //else -> ação
+        //}   
+         
+         var mes = 2 
+         
+        
+         
+        when(mes){ 
+            1 -> println("Acalpuco - MEX") 
+            2 ->  println("Paris - FRA") 
+            3 ->  println("Berlim - ALE") 
+            4 ->  println("Monaco - MON") 
+            5 ->  println("Pequim - CHI")  
+            6 ->  println("Acre - BRA") 
+            7 ->  println("Roma - Itália") 
+            8 ->  println("Atenas - GRE") 
+            9 ->  println("Madrid -ESP") 
+            10 ->  println("Manchester - ING") 
+            11 ->  println("Dubai - EAU") 
+            else ->  println("São Paulo - BRA")
+
+        }
+         
+        
+         
+    
+    }
