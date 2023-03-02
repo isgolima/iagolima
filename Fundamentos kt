@@ -259,3 +259,72 @@
          
     
     }
+    
+    /----------------------------------------------------------------------------------------------------------------------------------------
+      fun main(){
+  
+        //Laços de repetição 
+        // 
+        // while - enquanto
+        // for - para... 
+        // do..while - faça...enquanto
+        // repeat - repita  
+         
+        //Laço while
+        //enquanto uma determinada condição for verdadeira, outra determinada ação será executada 
+        // 
+        // Estrutura do Wgile 
+        // 
+        //while(condição){ 
+        //ação 
+        //} 
+         
+         /*
+        var bungeeJumping = 1
+         
+        while(bungeeJumping < 17){ 
+             println("$bungeeJumping anos? cresca, sério") 
+             bungeeJumping++
+        } 
+            println("Divirta-se, você chegou até aqui, você merece")
+         */
+        
+       //Laço do.. while 
+       // 
+       // Uma determinada ação sera excutada, enquanto outra determonda condição for verdadeira 
+       //  
+       //  Estrutura do do.. while
+       //do{ 
+       //ação 
+       //} while(condição) 
+       // 
+       /* 
+         
+         var idade = 1 
+         
+        do{ 
+            println("$idade anos? cresca, serio") 
+            idade++
+        }while(idade > 17) 
+        */  
+          
+        
+        var dias = 1 
+         
+        while(dias <= 365){ 
+            println("$dias dias") 
+            dias++
+           } 
+           /*
+         
+        var dias = 1 
+         
+        do{ 
+        println("$dias dias") 
+        dias++
+        } while (dias <= 365)
+        */ 
+         
+             
+         
+     }
