@@ -378,4 +378,59 @@ repeat(10){
             
  
  
+} 
+
+/-------------------------------------------------------------------------------------------------------- 
+fun main(){
+  
+    //Colections - coleções
+    //
+    //<> --> tags - servem para especificar o tipo de valor a ser listado
+    //
+    //São determinados conjuntos de itens que podem ser modelados e utilizados em determinados métodos e operações
+    //
+    //List - listas
+    //
+    //Listof --> listam itens de tipos variados 
+    
+    var bahia = mutableListOf("São Paulo arroz e pamonha", 25.7f, 23.974, '$', false)
+    println(bahia)
+    var cruzeiro = listOf<String>("cruzeiro do roberto carlos", "pelé", "bahia")
+    println(cruzeiro)
+    
+    
+    //index - umaposição de collection
+    
+    //propriedades - list
+    //
+    //.lastIndex
+    //println(cruzeiro.first())
+    //println(cruzeiro.lastIndex)
+    //println(cruzeiro.Size)
+    //
+    //println(cruzeiro.indexOf("cruzeiro do roberto carlos"))    
+    
+   
+    
+    //metodos - ListOf
+    /*
+    bahia.add(2, "easy")
+    println(bahia)
+    bahia.remove(23.974)
+    println(cruzeiro)
+    bahia.removeAt(3)
+    println(bahia)
+    bahia.set(0, "tartaruga")
+    println(bahia)
+    bahia.clear()
+    println(bahia)
+    */ 
+    var another - sertOf("pedro", "diniz", "pele", "marilla medonça", "dinis")
+    
+    
 }
+    
+    
+    
+    
+    
