@@ -431,6 +431,89 @@ fun main(){
 }
     
     
+    fun main(){
+        
+  /*      
+ var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "tucano" to 2, "hiena" to 3, "macaco" to 4)
+ println(animal)
+ 
+ animal.put("capivara incrivel ", 5)
+ println(animal)
+ animal.put("leopardo", 9)
+ println(animal)
+ animal.replace("tatu" ,3)
+ println(animal)
+ */
+        
+ //POO
+ //
+ //programação Orientada a Objetos
+ //
+ //Objetos - estados (caracteristicas: nome, idade, cpf) 
+ //
+ //Comportamentos - (andar, comer, dormir, conversar, programar)
+ //
+ //Classes - Modelos que servem par construção de objetos derivados 
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ /*
+ val pessoa1 = Pessoa()
+ pessoa1.nome = "keyla"
+        println(pessoa1.nome)
+ pessoa1.cpf = "445.177.465.78"
+        println(pessoa1.cpf)
+                          
+                                                                            
+        
+        
+    }
+    
+    class Pessoa(){
+        //declaração de atributos para a classe pessoa
+        var nome = ""
+        var cpf = ""
+        var idade = 99 
+        var altura = 1.74
+        
+        
+    }
+    */
+        println("---------------------------------------------FICHA MEDICA-------------------------------------------------")
+        
+        
+        val paciente = paciente()
+        paciente.nome = "nome = Iago"
+        println(paciente.nome)
+        paciente.idade = "idade = " 12 
+        println(paciente.idade)
+        paciente.sangue = "sangue = ok" 
+        println(paciente.sangue)
+        paciente.saude = " saude = ok" 
+        println(paciente.saude)
+        
+    
+      
+        
+    }  
+        
+        class paciente(){
+          var nome = ""
+          var idade = 12
+          var sangue = ""
+          var saude = ""
+          
+          
+      }  
+       
     
     
     
