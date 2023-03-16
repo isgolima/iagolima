@@ -514,6 +514,65 @@ fun main(){
           
       }  
        
+     fun main(){
+      println("---------------------------------------------FICHA MEDICA-------------------------------------------------")
+        
+        
+        val paciente = paciente()
+        paciente.nome = "nome = Iago Lima Felix"
+        println(paciente.nome)
+        paciente.anos =  "idade = 12"  
+        println(paciente.anos)
+        paciente.sangue = "sangue = O+" 
+        println(paciente.sangue)
+        paciente.saude = "saude = ok" 
+        println(paciente.saude)
+        paciente.altura = "altura = 1,69" 
+        println(paciente.altura) 
+        paciente.peso = "peso = 46 Kg" 
+        println(paciente.peso) 
+        paciente.pressao = "pressao = normal"
+        println(paciente.pressao) 
+        paciente.medicamento = "voce toma medica mento? sim"
+     println(paciente.medicamento)
+     paciente.medicamentoTomado = "qual medicamento voce toma? dipirona"
+     println(paciente.medicamentoTomado)
+     paciente.oculos = "voce usa oculos? sim"
+     println(paciente.oculos)
+     paciente.grauDoOculos = "qual o grau do seu oculos? 2.5"
+     println(paciente.grauDoOculos)
+     paciente.diabetes = "voce tem diabetes = nao"
+     println(paciente.diabetes) 
+     paciente.alergia = "voce tem alergia? sim" 
+     println(paciente.alergia) 
+     paciente.tipoDeAlergia = "voce tem alergia de que? poeira" 
+     println(paciente.tipoDeAlergi)
+     
+     
+     
+        
+    println("--------------------------------------------------------------------------------------------------------------")
+      
+        
+    }  
+        
+        class paciente(){
+          var nome = ""
+          var anos = ""
+          var sangue = ""
+          var saude = ""
+          var altura = "" 
+            var peso = "" 
+          var pressao = "" 
+            var medicamento  = ""
+            var oculos = "" 
+            var grauDoOculos = ""
+            var medicamentoTomado = "" 
+            var diabetes = ""
+            var alergia = ""
+          var tipoDeAlergia = ""
+      }  
+       
     
     
     
