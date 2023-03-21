@@ -573,6 +573,47 @@ fun main(){
           var tipoDeAlergia = ""
       }  
        
+       fun main(){ 
+     /*   
+       var jogador1 = jogadorDeFutebol("neymar JR","PSG", 10, "Brasil", "puma", "Meia-Atacante", 222.0)
+       
+       println(jogador1.nome)
+       println(jogador1.time)
+       println(jogador1.numero)
+       println(jogador1.nacionalidade)
+       println(jogador1.patrocinio)
+       println(jogador1.posicao)
+       println(jogador1.preco)
+   
+}    
+class jogadorDeFutebol(var nome:String,
+                      var time: String,
+                      var numero: Int,
+                      var nacionalidade: String,
+                      var patrocinio: String,
+                      var posicao: String,
+                      var preco: Double){
+   
+}    
+*/  
+   
+   var jogador1 = bahia("Cristiano Ronaldo", 7, "ponta-esquerda"
+                       "                                      ")
+      println(jogador1.nome)                        
+      println(jogador1.numero)  
+      println(jogador1.posicao)  
+       
+       var jogador2 = bahia("Messi", 10, "Atacante")
+       println(jogador2.nome)
+       println(jogador2.numero)
+       println(jogador2.posicao)
+   } 
+   class bahia(var nome: String,
+                    var numero: Int,
+                    var posicao: String,
+              var nada: String,){ 
+   
     
+   }
     
     
