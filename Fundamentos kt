@@ -617,3 +617,137 @@ class jogadorDeFutebol(var nome:String,
    }
     
     
+
+fun main(){
+    /*   
+       var jogador1 = jogadorDeFutebol("neymar JR","PSG", 10, "Brasil", "puma", "Meia-Atacante", 222.0)
+       
+       println(jogador1.nome)
+       println(jogador1.time)
+       println(jogador1.numero)
+       println(jogador1.nacionalidade)
+       println(jogador1.patrocinio)
+       println(jogador1.posicao)
+       println(jogador1.preco)
+   
+}    
+class jogadorDeFutebol(var nome:String,
+                      var time: String,
+                      var numero: Int,
+                      var nacionalidade: String,
+                      var patrocinio: String,
+                      var posicao: String,
+                      var preco: Double){
+   
+}    
+  
+   
+   var jogador1 = bahia("Cristiano Ronaldo", 7, "ponta-esquerda", 
+                       "----------------------------------------")
+      println(jogador1.nome)                        
+      println(jogador1.numero)  
+      println(jogador1.posicao)
+      println(jogador1.nada)
+       
+       var jogador2 = bahia("Messi", 10, "Atacante", 
+                           "----------------------------------------")
+       println(jogador2.nome)
+       println(jogador2.numero)
+       println(jogador2.posicao)
+       println(jogador2.nada)
+       
+       var jogador3 = bahia("neymar", 11, "Ponta-Esquerda", 
+                           "----------------------------------------")
+       
+       println(jogador3.nome)
+       println(jogador3.numero)
+       println(jogador3.posicao)
+       println(jogador3.nada)
+       
+       var jogador4 = bahia("Modric", 9, "Meio-Campo", 
+                           "---------------------------------------")
+       println(jogador4.nome)
+       println(jogador4.numero)
+       println(jogador4.posicao)
+       println(jogador4.nada)
+       
+       var jogador5 = bahia("Toni Kroos", 8, "Meio-Campo", 
+                           "---------------------------------------")
+       
+       println(jogador5.nome)
+       println(jogador5.numero)
+       println(jogador5.posicao)
+       println(jogador5.nada)
+      
+      var jogador6 = bahia("Casemiro", 12, "Volante", 
+                          "----------------------------------------")
+      
+      println(jogador6.nome)
+       println(jogador6.numero)
+       println(jogador6.posicao)
+       println(jogador6.nada)
+       
+       var jogador7 = bahia("Alphonso Davies", 6, "Lateral-Esquerdo", 
+                           "---------------------------------------")
+       
+       println(jogador7.nome)
+       println(jogador7.numero)
+       println(jogador7.posicao)
+       println(jogador7.nada)
+       
+      var jogador8 = bahia("Sergio Ramos", 4, "Zagueiro", 
+                          "---------------------------------------")
+      
+      println(jogador8.nome)
+       println(jogador8.numero)
+       println(jogador8.posicao)
+       println(jogador8.nada)
+     
+     var jogador9 = bahia("Van Dijk", 5, "Zagueiro", 
+                         "----------------------------------------")
+     
+     println(jogador9.nome)
+       println(jogador9.numero)
+       println(jogador9.posicao)
+       println(jogador9.nada)
+       
+       var jogador10 = bahia("Alexander Arnold", 3, "Lateral-Direito", 
+                            "-----------------------------------------")
+       
+       println(jogador10.nome)
+       println(jogador10.numero)
+       println(jogador10.posicao)
+       println(jogador10.nada)
+       
+       var jogador11 = bahia("Thibaut Courtois", 1, "Goleiro", 
+                            "----------------------------------------")
+       
+       println(jogador11.nome)
+       println(jogador11.numero)
+       println(jogador11.posicao)
+       println(jogador11.nada)
+       */
+    
+    //metodo/funcoes - sao um grupo de acoes que representam uma determinada atividade de um determinado objeto
+    //
+    //estrutura de um metodo no Kotlin
+    //
+    //fun numeDela (parametros - se tiver){
+    //acoes
+    //}
+    //
+    //
+    //var nomeDoObjeto = ClasseDele()
+    //
+    //nomeDoObjeto.nomeDela()
+    
+       
+   } 
+   class bahia(var nome: String,
+                    var numero: Int,
+                    var posicao: String,
+              var nada: String,){ 
+   
+    
+    
+   }
