@@ -751,3 +751,49 @@ class jogadorDeFutebol(var nome:String,
     
     
    }
+ fun main(){
+  //metodo/funcoes - sao um grupo de acoes que representam uma determinada atividade de um determinado objeto
+    //
+    //estrutura de um metodo no Kotlin
+    //
+    //fun numeDela (parametros - se tiver){
+    //acoes
+    //}
+    //
+    //
+    //var nomeDoObjeto = ClasseDele()
+    //
+    //nomeDoObjeto.nomeDela()
+    // 
+    
+    val contaCorrente = ContaBanco(1742537899400012, 0.5, "Rogers")
+    contaCorrente.consultarSaldo()
+    contaCorrente.saque(0.3, 2984)
+     
+ }
+ 
+ class ContaBanco(val num: Long, var saldo: Double,var dono: String){
+     
+     //Consultar saldo, Saque e Deposito
+     //
+     fun consultarSaldo(){
+         println("O saldo da sua conta é R$$saldo")
+     }
+     fun Saque(valor: Double, senha: Int){
+         
+         if(senha == 2984){
+             if(saldo >= valor){
+                 saldo -= valor //vai subtrair o Valor do Saldo
+                 println("Saque de R$$valor realizado com sucesso ")
+             }else if(valor <= 0){
+                 println("Impossivel sacar R$$valor")
+             }else{
+                 println("Saldo Insuficiente, saque")
+             }
+         }else{
+             println("Senha Incorreta! Tente novamente")
+         }
+         
+     }
+     
+ }
